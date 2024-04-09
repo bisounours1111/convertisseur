@@ -28,6 +28,6 @@ py -m venv venv
 
 .venv/Scripts/activate
 
-py convert_avif.py chemin/vers/dossier/input [chemin/vers/dossier/output]
+py main.py chemin/vers/dossier/input [chemin/vers/dossier/output]
 ```
 Une fois la conversion terminée, les images converties seront disponibles dans le dossier de sortie spécifié (ou le dossier par défaut "output" si aucun n'est spécifié).
