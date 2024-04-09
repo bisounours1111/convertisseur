@@ -12,10 +12,6 @@ Bibliothèque pillow_avif
 ## Pour les installer :
 
 ```bash
-python -m venv venv
-
-.venv/Scripts/activate
-
 pip install Pillow pillow_avif
 ```
 ou
@@ -27,5 +23,11 @@ py -m pip install Pillow pillow_avif
 
 Pour démarrer le script vous devez spécifier au minimum le dossier d'entrée et si besoin celui de sortie par défaut (output)
 
+```bash
+python -m venv venv
+
+.venv/Scripts/activate
+
 python convert_avif.py chemin/vers/dossier/input [chemin/vers/dossier/output]
+```
 Une fois la conversion terminée, les images converties seront disponibles dans le dossier de sortie spécifié (ou le dossier par défaut "output" si aucun n'est spécifié).
