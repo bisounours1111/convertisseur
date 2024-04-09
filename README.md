@@ -21,7 +21,7 @@ py -m pip install Pillow pillow_avif
 
 ## Utilisation :
 
-Pour démarrer le script vous devez spécifié au minimum le dossier d'entrée et si besoin celui de sortie par défaut (output)
+Pour démarrer le script vous devez spécifier au minimum le dossier d'entrée et si besoin celui de sortie par défaut (output)
 
 python convert_avif.py chemin/vers/dossier/input [chemin/vers/dossier/output]
 Une fois la conversion terminée, les images converties seront disponibles dans le dossier de sortie spécifié (ou le dossier par défaut "output" si aucun n'est spécifié).
