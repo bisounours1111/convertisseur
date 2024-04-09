@@ -12,6 +12,10 @@ Bibliothèque pillow_avif
 ## Pour les installer :
 
 ```bash
+python -m venv venv
+
+.venv/Scripts/activate
+
 pip install Pillow pillow_avif
 ```
 ou
